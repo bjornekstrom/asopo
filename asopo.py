@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import urllib2
 import re
 
-html_page = urllib2.urlopen("https://news.ycombinator.com")
+html_page = urllib2.urlopen("")
 
 asopo = BeautifulSoup(html_page, "html.parser")
 
